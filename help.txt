@@ -1,0 +1,19 @@
+https://mkyong.com/docker/docker-spring-boot-examples/#:~:text=Dockerize%20Spring%20Boot%20Application,to%20the%20folder%20containing%20Dockerfile%20.&text=5.2%20sudo%20docker%20build%20%2Dt%20name%3Atag%20.&text=5.3%20Start%20the%20docker%20container,the%20container%20in%20the%20background.
+
+https://github.com/mkyong/docker-java
+
+
+
+
+docker ps -a
+docker run -d -p 8080:8080 -t spring-boot:1.0
+docker logs ce62cb8f4406
+docker build -t spring-boot:1.0 .
+
+
+.\minikube.exe start --kubernetes-version="v1.4.0" --vm-driver="virtualbox" --show-libmachine-logs --alsologtostderr
+
+
+minikube start --vm-driver=hyperv --v=7 --alsologtostderr
+
+https://rominirani.com/tutorial-getting-started-with-kubernetes-on-your-windows-laptop-with-minikube-3269b54a226
